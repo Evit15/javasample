@@ -6,5 +6,14 @@ public class Main {
 		System.out.println("Hello world!");
 		
 	}
+    public static String getHelloWorld(){
+        return "hello world";
+    }
 
+    public static int getNumber10(){
+        return 10;
+    }
+    public static int getLucky() {
+        return 7;
+    }
 }
