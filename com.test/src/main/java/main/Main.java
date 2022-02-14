@@ -11,7 +11,7 @@ public class Main {
     }
 
     public static int getNumber10(){
-        return 10;
+        return 9;
     }
     public static int getLucky() {
         return 7;
