@@ -4,7 +4,9 @@ pipeline {
     stages {
         stage('Example') {
             steps {
-                def username = 'Jenkins'
+                script {
+                    def username = 'Jenkins'
+                }
                 echo 'Hello Mr. ${username}'
                 echo "I said, Hello Mr. ${username}"
             }
