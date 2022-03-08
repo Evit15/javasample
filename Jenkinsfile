@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        echo 'abc'
+        echo "Build on ${env.BRANCH_NAME}"
       }
     }
 
