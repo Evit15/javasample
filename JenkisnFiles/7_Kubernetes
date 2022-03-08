@@ -27,6 +27,7 @@ pipeline {
       steps {
         container('maven') {
           sh 'mvn -version'
+          sh 'mvn -f ./com.test/pom.xml clean install'
         }
         container('busybox') {
           sh '/bin/busybox'
